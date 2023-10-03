@@ -87,6 +87,7 @@ export default function Weather() {
             <a
               href="https://github.com/negaramatin/weather-react"
               target="”_blank”"
+              rel="noreferrer"
             >
               Open-source code
             </a>

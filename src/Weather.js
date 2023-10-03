@@ -85,7 +85,7 @@ export default function Weather() {
         <div className="col">
           <footer className="footer">
             <a
-              href="https://github.com/negaramatin/shecodes-weather-app"
+              href="https://github.com/negaramatin/weather-react"
               target="”_blank”"
             >
               Open-source code

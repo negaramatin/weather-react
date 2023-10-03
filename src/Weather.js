@@ -78,7 +78,7 @@ export default function Weather() {
 
       <br />
       <div className="row forecast">
-        <h3>Forecast</h3>
+        <h3></h3>
       </div>
       <div className="row weather-forecast"></div>
       <div className="row">

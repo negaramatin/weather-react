@@ -1,0 +1,109 @@
+.current-city-temp {
+  margin: 0 auto;
+  font-size: 40px;
+  text-align: center;
+}
+.current-icon {
+  font-size: 60px;
+  padding: 0px;
+}
+#temperature-description,
+#humidity,
+#wind,
+#feels {
+  font-size: 16px;
+  padding: 0px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.last-updated {
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.8);
+  font-style: italic;
+}
+.convert {
+  font-size: 16px;
+  padding: 0px;
+  text-align: center;
+}
+#convert-celsius,
+#convert-fahrenheit {
+  color: #b55169;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#convert-celsius:hover,
+#convert-fahrenheit:hover {
+  color: #b55169;
+  text-decoration: none;
+  cursor: pointer;
+}
+.active#convert-celsius,
+.active#convert-fahrenheit {
+  text-decoration: none;
+  color: #000;
+  cursor: default;
+}
+.current-deg,
+.current-icon {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  align-items: center;
+}
+.current-city {
+  padding: 15px;
+}
+.forecast-col {
+  text-align: center;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.forecast-desc {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+}
+
+.forecast-day {
+  text-align: center;
+  font-weight: bold;
+  display: block;
+  padding: 0px;
+}
+.forecast-min {
+  opacity: 0.6;
+  font-size: 16px;
+}
+.forecast-max {
+  font-weight: bold;
+  font-size: 16px;
+}
+.forecast-icon {
+  text-align: center;
+  padding: 0px;
+  width: 100px;
+  align-items: center;
+}
+.forecast-temp {
+  text-align: center;
+  display: block;
+  padding: 10px;
+}
+.footer {
+  width: 100%;
+  height: 1.2rem;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+a {
+  color: #000;
+  text-decoration: underline;
+}

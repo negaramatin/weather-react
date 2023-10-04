@@ -1,5 +1,5 @@
 import React from "react";
-import axios from "axios";
+// import axios from "axios";
 import "./Weather.css";
 
 export default function Weather() {
@@ -78,7 +78,7 @@ export default function Weather() {
 
       <br />
       <div className="row forecast">
-        <h3></h3>
+        <p></p>
       </div>
       <div className="row weather-forecast"></div>
       <div className="row">
@@ -86,7 +86,7 @@ export default function Weather() {
           <footer className="footer">
             <a
               href="https://github.com/negaramatin/weather-react"
-              target="”_blank”"
+              target="_blank"
               rel="noreferrer"
             >
               Open-source code
